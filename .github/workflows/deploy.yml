@@ -1,0 +1,54 @@
+name: Deploy suzukinet to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:       # 手動実行ボタンも使えるようにする
+
+# GitHub Pages への書き込み権限
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同時デプロイを防止
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # ---- ビルド ----
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive   # PaperMod テーマのsubmoduleも取得
+          fetch-depth: 0          # 全履歴（最終更新日表示に必要）
+
+      - name: Hugo をセットアップ
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "latest"
+          extended: true
+
+      - name: サイトをビルド
+        run: hugo --minify --gc
+
+      - name: GitHub Pages 用アーティファクトをアップロード
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  # ---- デプロイ ----
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: GitHub Pages にデプロイ
+        id: deployment
+        uses: actions/deploy-pages@v4

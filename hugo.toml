@@ -1,0 +1,112 @@
+baseURL = "https://www.suzukinet.com/"
+languageCode = "ja"
+title = "suzukinet"
+theme = "PaperMod"
+defaultContentLanguage = "ja"
+hasCJKLanguage = true
+paginate = 20
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+# ---- サイト全体のパラメータ ----
+[params]
+  env = "production"
+  description = "インターネット黎明期からの記録。Los Angeles留学日記と日常の断片。"
+  author = "Hirofumi Suzuki"
+  defaultTheme = "auto"       # ライト/ダークモード自動切替
+  disableThemeToggle = false
+
+  ShowReadingTime    = true
+  ShowShareButtons   = false
+  ShowPostNavLinks   = true
+  ShowBreadCrumbs    = true
+  ShowCodeCopyButtons = false
+  ShowWordCount      = false
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc         = true
+  disableScrollToTop = false
+  comments           = false
+
+  # ホームページのメッセージ
+  [params.homeInfoParams]
+    Title   = "鈴木弘文の個人サイト"
+    Content = """
+1990年代末から続く個人サイトです。
+ロサンゼルス留学中の日記や、インターネット黎明期の日常を残しています。
+"""
+
+  # ソーシャルアイコン（必要に応じて追記）
+  [[params.socialIcons]]
+    name = "rss"
+    url  = "/index.xml"
+
+# ---- Google Analytics (取得後に設定) ----
+# [services.googleAnalytics]
+#   ID = "G-XXXXXXXXXX"
+
+# ---- メニュー ----
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name       = "ホーム"
+    url        = "/"
+    weight     = 10
+
+  [[menu.main]]
+    identifier = "diary"
+    name       = "日記"
+    url        = "/posts/"
+    weight     = 20
+
+  [[menu.main]]
+    identifier = "la"
+    name       = "LA留学日記"
+    url        = "/categories/la留学日記/"
+    weight     = 30
+
+  [[menu.main]]
+    identifier = "archives"
+    name       = "アーカイブ"
+    url        = "/archives/"
+    weight     = 40
+
+  [[menu.main]]
+    identifier = "search"
+    name       = "検索"
+    url        = "/search/"
+    weight     = 50
+
+# ---- 出力形式 (検索JSON含む) ----
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# ---- タクソノミー ----
+[taxonomies]
+  category = "categories"
+  tag      = "tags"
+  section  = "sections"
+
+# ---- マークアップ設定 ----
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true   # HTML記法を許可（変換後コンテンツ対応）
+  [markup.highlight]
+    noClasses = false
+
+# ---- プライバシー設定 ----
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = false
+    respectDoNotTrack = true
+  [privacy.x]
+    disable = false
+    enableDNT = true
