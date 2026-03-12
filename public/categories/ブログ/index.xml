@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ブログ on suzukinet</title>
-    <link>https://www.suzukinet.com/categories/%E3%83%96%E3%83%AD%E3%82%B0/</link>
+    <link>https://suzuki378p.github.io/suzukinet.com/categories/%E3%83%96%E3%83%AD%E3%82%B0/</link>
     <description>Recent content in ブログ on suzukinet</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 01 Jan 2006 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.suzukinet.com/categories/%E3%83%96%E3%83%AD%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://suzuki378p.github.io/suzukinet.com/categories/%E3%83%96%E3%83%AD%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>うまくいかないなぁ</title>
-      <link>https://www.suzukinet.com/posts/2006-01-01-%E3%81%86%E3%81%BE%E3%81%8F%E3%81%84%E3%81%8B%E3%81%AA%E3%81%84%E3%81%AA%E3%81%81/</link>
+      <link>https://suzuki378p.github.io/suzukinet.com/posts/2006-01-01-%E3%81%86%E3%81%BE%E3%81%8F%E3%81%84%E3%81%8B%E3%81%AA%E3%81%84%E3%81%AA%E3%81%81/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>https://www.suzukinet.com/posts/2006-01-01-%E3%81%86%E3%81%BE%E3%81%8F%E3%81%84%E3%81%8B%E3%81%AA%E3%81%84%E3%81%AA%E3%81%81/</guid>
+      <guid>https://suzuki378p.github.io/suzukinet.com/posts/2006-01-01-%E3%81%86%E3%81%BE%E3%81%8F%E3%81%84%E3%81%8B%E3%81%AA%E3%81%84%E3%81%AA%E3%81%81/</guid>
       <description>&lt;p&gt;Movable Type3.2へのアップグレードはまだ継続中。&lt;br&gt;
 &lt;a href=&#34;http://www.koikikukan.com/&#34;&gt;「小粋空間」&lt;/a&gt;さんのテンプレートをいただいてリニューアルし、なんとかトップページの表示はできるようになったが、カテゴリーや日付別で表示するとレイアウトが崩れてしまう。&lt;br&gt;
 たぶんテンプレートのどこかをいじらなければならないのだろうけれど、いまいちよく分からない。&lt;br&gt;
@@ -20,51 +20,51 @@
     </item>
     <item>
       <title>ブログ復活！</title>
-      <link>https://www.suzukinet.com/posts/2006-01-01-%E3%83%96%E3%83%AD%E3%82%B0%E5%BE%A9%E6%B4%BB/</link>
+      <link>https://suzuki378p.github.io/suzukinet.com/posts/2006-01-01-%E3%83%96%E3%83%AD%E3%82%B0%E5%BE%A9%E6%B4%BB/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>https://www.suzukinet.com/posts/2006-01-01-%E3%83%96%E3%83%AD%E3%82%B0%E5%BE%A9%E6%B4%BB/</guid>
+      <guid>https://suzuki378p.github.io/suzukinet.com/posts/2006-01-01-%E3%83%96%E3%83%AD%E3%82%B0%E5%BE%A9%E6%B4%BB/</guid>
       <description>&lt;p&gt;これまでホスティングしていたサーバの容量が足りなくなってブログの表示がうまくできなくなったので、思い切ってサーバを移転してみた。&lt;br&gt;
 新居は“ナウでヤングなレンタルサーバ”&lt;a href=&#34;http://lolipop.jp/&#34;&gt;ロリポップ&lt;/a&gt;。&lt;br&gt;
 ブログもMovableTypeからデフォルトで用意されている「ロリポップブログ」を使うことに。&lt;/p&gt;</description>
     </item>
     <item>
       <title>只今、工事中</title>
-      <link>https://www.suzukinet.com/posts/2006-01-01-%E5%8F%AA%E4%BB%8A%E5%B7%A5%E4%BA%8B%E4%B8%AD/</link>
+      <link>https://suzuki378p.github.io/suzukinet.com/posts/2006-01-01-%E5%8F%AA%E4%BB%8A%E5%B7%A5%E4%BA%8B%E4%B8%AD/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>https://www.suzukinet.com/posts/2006-01-01-%E5%8F%AA%E4%BB%8A%E5%B7%A5%E4%BA%8B%E4%B8%AD/</guid>
+      <guid>https://suzuki378p.github.io/suzukinet.com/posts/2006-01-01-%E5%8F%AA%E4%BB%8A%E5%B7%A5%E4%BA%8B%E4%B8%AD/</guid>
       <description>&lt;p&gt;Movable Typeを3.2にバージョンアップすべく、只今、奮闘中。&lt;br&gt;
 しばし、お待ちを。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Google Adsense</title>
-      <link>https://www.suzukinet.com/posts/2004-01-01-google-adsense/</link>
+      <link>https://suzuki378p.github.io/suzukinet.com/posts/2004-01-01-google-adsense/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      <guid>https://www.suzukinet.com/posts/2004-01-01-google-adsense/</guid>
+      <guid>https://suzuki378p.github.io/suzukinet.com/posts/2004-01-01-google-adsense/</guid>
       <description>&lt;p&gt;お手伝いさせてもらっている&lt;a href=&#34;http://www.plugsmart.com/&#34;&gt;「smart silver shop PLUG」&lt;/a&gt;で検索連動広告への出稿を検討していることもあって、我がサイトに&lt;a href=&#34;https://www.google.com/adsense/home&#34;&gt;Google Adsense&lt;/a&gt;を導入してみたのだが、これがかなりよくできていてびっくりした。&lt;br&gt;
 全文検索のノウハウを生かし、各ページの内容に合ったジャンルの広告が自動的に配信されるのだ。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Movable Type 3.01D-ja</title>
-      <link>https://www.suzukinet.com/posts/2004-01-01-movable-type-301d-ja/</link>
+      <link>https://suzuki378p.github.io/suzukinet.com/posts/2004-01-01-movable-type-301d-ja/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      <guid>https://www.suzukinet.com/posts/2004-01-01-movable-type-301d-ja/</guid>
+      <guid>https://suzuki378p.github.io/suzukinet.com/posts/2004-01-01-movable-type-301d-ja/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.movabletype.jp/&#34;&gt;Movable Type 3.01D-ja&lt;/a&gt;をインストールしてみた。&lt;br&gt;
 相変わらずプログラムのことはよく分からないので何度か試行錯誤が必要だったが、とりあえずは成功したみたい。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ブログにもGoogle Adsense導入</title>
-      <link>https://www.suzukinet.com/posts/2004-01-01-%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%82%82google-adsense%E5%B0%8E%E5%85%A5/</link>
+      <link>https://suzuki378p.github.io/suzukinet.com/posts/2004-01-01-%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%82%82google-adsense%E5%B0%8E%E5%85%A5/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      <guid>https://www.suzukinet.com/posts/2004-01-01-%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%82%82google-adsense%E5%B0%8E%E5%85%A5/</guid>
+      <guid>https://suzuki378p.github.io/suzukinet.com/posts/2004-01-01-%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%82%82google-adsense%E5%B0%8E%E5%85%A5/</guid>
       <description>&lt;p&gt;古い日記に導入して面白いなぁと感じていた&lt;a href=&#34;https://www.google.com/adsense/home&#34;&gt;Google Adsense&lt;/a&gt;をブログにも導入してみた。&lt;br&gt;
 けっこうめんどくさいかと予想していたのだが、テンプレートをゴチャゴチャいじっていたら、いつの間にかできていた（笑）。&lt;br&gt;
 本当は、表示位置やレイアウトなど納得いかない部分もあるのだが、今日のところはまあこんなところにしておこう。&lt;/p&gt;</description>
     </item>
     <item>
       <title>「サイバースペースからの攻撃」</title>
-      <link>https://www.suzukinet.com/posts/1999-01-01-%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%81%8B%E3%82%89%E3%81%AE%E6%94%BB%E6%92%83/</link>
+      <link>https://suzuki378p.github.io/suzukinet.com/posts/1999-01-01-%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%81%8B%E3%82%89%E3%81%AE%E6%94%BB%E6%92%83/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>https://www.suzukinet.com/posts/1999-01-01-%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%81%8B%E3%82%89%E3%81%AE%E6%94%BB%E6%92%83/</guid>
+      <guid>https://suzuki378p.github.io/suzukinet.com/posts/1999-01-01-%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%81%8B%E3%82%89%E3%81%AE%E6%94%BB%E6%92%83/</guid>
       <description>&lt;p&gt;昼頃起きてきて&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4827514992/suzukinetcom-22/ref=nosim/&#34;&gt;「これだけで聞ける・話せる UDA式30音でマスターする英会話」&lt;/a&gt;&lt;br&gt;
 。&lt;br&gt;
 Stage２まで終了したが、「farmとfirm」「trackとtruck」「shutとshot」が聞き分けられない。&lt;br&gt;
@@ -74,9 +74,9 @@ Stage２まで終了したが、「farmとfirm」「trackとtruck」「shutとsh
     </item>
     <item>
       <title>「トゥナイト２ スゴ～イ！1000回もイッちゃった！視聴者大感謝祭」</title>
-      <link>https://www.suzukinet.com/posts/1999-01-01-%E3%83%88%E3%82%A5%E3%83%8A%E3%82%A4%E3%83%882-%E3%82%B9%E3%82%B4%E3%82%A41000%E5%9B%9E%E3%82%82%E3%82%A4%E3%83%83%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F%E8%A6%96%E8%81%B4%E8%80%85%E5%A4%A7%E6%84%9F%E8%AC%9D%E7%A5%AD/</link>
+      <link>https://suzuki378p.github.io/suzukinet.com/posts/1999-01-01-%E3%83%88%E3%82%A5%E3%83%8A%E3%82%A4%E3%83%882-%E3%82%B9%E3%82%B4%E3%82%A41000%E5%9B%9E%E3%82%82%E3%82%A4%E3%83%83%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F%E8%A6%96%E8%81%B4%E8%80%85%E5%A4%A7%E6%84%9F%E8%AC%9D%E7%A5%AD/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>https://www.suzukinet.com/posts/1999-01-01-%E3%83%88%E3%82%A5%E3%83%8A%E3%82%A4%E3%83%882-%E3%82%B9%E3%82%B4%E3%82%A41000%E5%9B%9E%E3%82%82%E3%82%A4%E3%83%83%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F%E8%A6%96%E8%81%B4%E8%80%85%E5%A4%A7%E6%84%9F%E8%AC%9D%E7%A5%AD/</guid>
+      <guid>https://suzuki378p.github.io/suzukinet.com/posts/1999-01-01-%E3%83%88%E3%82%A5%E3%83%8A%E3%82%A4%E3%83%882-%E3%82%B9%E3%82%B4%E3%82%A41000%E5%9B%9E%E3%82%82%E3%82%A4%E3%83%83%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F%E8%A6%96%E8%81%B4%E8%80%85%E5%A4%A7%E6%84%9F%E8%AC%9D%E7%A5%AD/</guid>
       <description>&lt;p&gt;午前９時半起床。&lt;/p&gt;
 &lt;p&gt;橘さんと高尾ちゃんをホテルでピックアップして空港へお見送り。&lt;br&gt;
 来月、一時帰国したときの再会を約束して別れる。&lt;/p&gt;
@@ -87,9 +87,9 @@ Stage２まで終了したが、「farmとfirm」「trackとtruck」「shutとsh
     </item>
     <item>
       <title>ロデオドライブと五番街</title>
-      <link>https://www.suzukinet.com/posts/1999-01-01-%E3%83%AD%E3%83%87%E3%82%AA%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96%E3%81%A8%E4%BA%94%E7%95%AA%E8%A1%97/</link>
+      <link>https://suzuki378p.github.io/suzukinet.com/posts/1999-01-01-%E3%83%AD%E3%83%87%E3%82%AA%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96%E3%81%A8%E4%BA%94%E7%95%AA%E8%A1%97/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>https://www.suzukinet.com/posts/1999-01-01-%E3%83%AD%E3%83%87%E3%82%AA%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96%E3%81%A8%E4%BA%94%E7%95%AA%E8%A1%97/</guid>
+      <guid>https://suzuki378p.github.io/suzukinet.com/posts/1999-01-01-%E3%83%AD%E3%83%87%E3%82%AA%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96%E3%81%A8%E4%BA%94%E7%95%AA%E8%A1%97/</guid>
       <description>&lt;p&gt;昼前に友人からの電話で叩き起こされ、ダウンタウンのホテルへ。&lt;br&gt;
 今日は駐車違反のチケットを切られないよう慎重に車を停めて友人をピックアップ。&lt;br&gt;
 「買い物がしたい」というリクエストに応えてロデオドライブに案内する。&lt;br&gt;
@@ -99,9 +99,9 @@ Stage２まで終了したが、「farmとfirm」「trackとtruck」「shutとsh
     </item>
     <item>
       <title>引っ越し屋、決定</title>
-      <link>https://www.suzukinet.com/posts/1998-01-01-%E5%BC%95%E3%81%A3%E8%B6%8A%E3%81%97%E5%B1%8B%E6%B1%BA%E5%AE%9A/</link>
+      <link>https://suzuki378p.github.io/suzukinet.com/posts/1998-01-01-%E5%BC%95%E3%81%A3%E8%B6%8A%E3%81%97%E5%B1%8B%E6%B1%BA%E5%AE%9A/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
-      <guid>https://www.suzukinet.com/posts/1998-01-01-%E5%BC%95%E3%81%A3%E8%B6%8A%E3%81%97%E5%B1%8B%E6%B1%BA%E5%AE%9A/</guid>
+      <guid>https://suzuki378p.github.io/suzukinet.com/posts/1998-01-01-%E5%BC%95%E3%81%A3%E8%B6%8A%E3%81%97%E5%B1%8B%E6%B1%BA%E5%AE%9A/</guid>
       <description>&lt;p&gt;引っ越し屋さんがさらに３社来訪。&lt;br&gt;
 結局、最後にやってきた&lt;a href=&#34;http://www.nittsu.co.jp/&#34;&gt;日通&lt;/a&gt;で決める。&lt;br&gt;
 「引っ越し業者はいくつか競合させた方がいいよ」という友人のアドバイスは大当たり。&lt;br&gt;
@@ -110,9 +110,9 @@ Stage２まで終了したが、「farmとfirm」「trackとtruck」「shutとsh
     </item>
     <item>
       <title>リスニング対策</title>
-      <link>https://www.suzukinet.com/posts/1997-01-01-%E3%83%AA%E3%82%B9%E3%83%8B%E3%83%B3%E3%82%B0%E5%AF%BE%E7%AD%96/</link>
+      <link>https://suzuki378p.github.io/suzukinet.com/posts/1997-01-01-%E3%83%AA%E3%82%B9%E3%83%8B%E3%83%B3%E3%82%B0%E5%AF%BE%E7%AD%96/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
-      <guid>https://www.suzukinet.com/posts/1997-01-01-%E3%83%AA%E3%82%B9%E3%83%8B%E3%83%B3%E3%82%B0%E5%AF%BE%E7%AD%96/</guid>
+      <guid>https://suzuki378p.github.io/suzukinet.com/posts/1997-01-01-%E3%83%AA%E3%82%B9%E3%83%8B%E3%83%B3%E3%82%B0%E5%AF%BE%E7%AD%96/</guid>
       <description>&lt;p&gt;TOEFLの３パート「リスニング」「文法」「リーディング」のうち、僕が最も苦手だったのが「リスニング」でした。&lt;br&gt;
 最初の頃なんてテープのスピードについていけなくて、きちんと回答できるのが１問おき（つまり半分）というありさま。&lt;br&gt;
 かなり焦ったもんです。&lt;br&gt;
