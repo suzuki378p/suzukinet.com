@@ -18,7 +18,7 @@ buildExpired = false
 [params]
   env = "production"
   description = "インターネット黎明期からの記録。Los Angeles留学日記と日常の断片。"
-  author = "Hirofumi Suzuki"
+  author = "Hiroshi Suzuki"
   defaultTheme = "auto"       # ライト/ダークモード自動切替
   disableThemeToggle = false
 
@@ -35,7 +35,7 @@ buildExpired = false
 
   # ホームページのメッセージ
   [params.homeInfoParams]
-    Title   = "鈴木弘文の個人サイト"
+    Title   = "鈴木裕史の個人サイト"
     Content = """
 1990年代末から続く個人サイトです。
 ロサンゼルス留学中の日記や、インターネット黎明期の日常を残しています。
