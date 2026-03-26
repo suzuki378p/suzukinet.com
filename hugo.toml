@@ -4,7 +4,8 @@ title = "suzukinet"
 theme = "PaperMod"
 defaultContentLanguage = "ja"
 hasCJKLanguage = true
-paginate = 20
+[pagination]
+  pagerSize = 20
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
@@ -33,13 +34,8 @@ buildExpired = false
   disableScrollToTop = false
   comments           = false
 
-  # ホームページのメッセージ
-  [params.homeInfoParams]
-    Title   = "鈴木裕史の個人サイト"
-    Content = """
-1990年代末から続く個人サイトです。
-ロサンゼルス留学中の日記や、インターネット黎明期の日常を残しています。
-"""
+  # ホームページのメッセージ（カスタムレイアウト使用のため無効化）
+  # [params.homeInfoParams]
 
   # ソーシャルアイコン（必要に応じて追記）
   [[params.socialIcons]]
@@ -67,7 +63,7 @@ buildExpired = false
   [[menu.main]]
     identifier = "la"
     name       = "LA留学日記"
-    url        = "/categories/la留学日記/"
+    url        = "/"
     weight     = 30
 
   [[menu.main]]

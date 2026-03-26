@@ -1,0 +1,250 @@
+/* =============================================
+   LA留学日記 カスタムスタイル
+   ============================================= */
+
+/* ── ヒーロー ── */
+.la-hero {
+  position: relative;
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.la-hero-img-wrap {
+  position: absolute;
+  inset: 0;
+}
+
+.la-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 60%;
+  display: block;
+}
+
+.la-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.15) 0%,
+    rgba(0,0,0,0.55) 100%
+  );
+}
+
+.la-hero-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem 2rem 2.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+.la-hero-label {
+  font-size: 0.85rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.85;
+  margin-bottom: 0.5rem;
+}
+
+.la-hero-title {
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 0.75rem;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+.la-hero-sub {
+  font-size: clamp(0.85rem, 2vw, 1rem);
+  line-height: 1.7;
+  opacity: 0.9;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+/* ── イントロ ── */
+.la-intro {
+  background: var(--theme);
+  border-bottom: 1px solid var(--border);
+}
+
+.la-intro-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  font-size: 0.95rem;
+  line-height: 1.9;
+  color: var(--secondary);
+}
+
+/* ── 章立てグリッド ── */
+.la-chapters {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.la-chapters-title {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  letter-spacing: 0.05em;
+  color: var(--primary);
+}
+
+.la-chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.25rem;
+}
+
+/* ── カード ── */
+.la-chapter-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background: var(--entry);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.la-chapter-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  text-decoration: none;
+}
+
+.la-card-img-wrap {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  background: #e8e0d4;
+}
+
+.la-card-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.la-chapter-card:hover .la-card-img-wrap img {
+  transform: scale(1.04);
+}
+
+/* 写真なしカードのアイコン表示 */
+.la-card-img-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f5efe6 0%, #e8ddd0 100%);
+}
+
+[data-theme="dark"] .la-card-img-text {
+  background: linear-gradient(135deg, #2a2520 0%, #1e1b18 100%);
+}
+
+.la-card-icon {
+  font-size: 3.5rem;
+  opacity: 0.7;
+}
+
+.la-card-body {
+  padding: 1rem 1.2rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  flex: 1;
+}
+
+.la-card-num {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--secondary);
+  opacity: 0.7;
+}
+
+.la-card-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.3;
+  color: var(--primary);
+}
+
+.la-card-desc {
+  font-size: 0.83rem;
+  line-height: 1.65;
+  color: var(--secondary);
+  margin: 0.2rem 0 0.4rem;
+  flex: 1;
+}
+
+.la-card-count {
+  font-size: 0.75rem;
+  color: var(--secondary);
+  opacity: 0.6;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── フッター近くの「全記事」ボタン ── */
+.la-recent {
+  border-top: 1px solid var(--border);
+  background: var(--theme);
+}
+
+.la-recent-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+}
+
+.la-recent-inner h2 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.la-btn {
+  display: inline-block;
+  padding: 0.6rem 1.6rem;
+  border: 1.5px solid var(--primary);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+}
+
+.la-btn:hover {
+  background: var(--primary);
+  color: var(--theme);
+  text-decoration: none;
+}
+
+/* ── レスポンシブ ── */
+@media (max-width: 600px) {
+  .la-hero {
+    height: 340px;
+  }
+  .la-hero-content {
+    padding: 1.5rem 1rem 2rem;
+  }
+  .la-chapter-grid {
+    grid-template-columns: 1fr;
+  }
+}
